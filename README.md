@@ -39,7 +39,7 @@
 此遊戲主要想藉由「***音量的漸增***」與「***溫度的提升***」所產生之跨模態效應，來強化受測者在虛擬實境中對於熱觸覺的感知。<br>
 * 情境設定：玩家必須使用雙手控制手中之噴射火焰，飛至終點線 以完成任務。
 * 功能設定：只有當雙手溫度一致時，玩家才會向上飛， 系統會自動判斷雙手溫度是否一致，若溫度一致之狀態維持超過3秒，則人物向上飛，過程中，雙手溫度一致之狀態只要一中斷，玩家將會立即停止向上移動。 
-* 遊戲影片：點擊圖片觀看影片！<br>
+* [遊戲影片](https://youtu.be/bDB4SQxeE-E?t=45)：<br>
 <br> <a href="https://youtu.be/bDB4SQxeE-E?t=45" target="_blank"><img src="media/GameScene1.png" 
 width=70% /></a>
 
@@ -78,7 +78,17 @@ width=70% /></a>
 * **系統關係圖System Context Diagram**
 <br>
 
-* **Unity與Arduino串接**br
+> <img src="media/系統關係圖v3  System Context Diagram-16.png" width=70%><br>
+>> 1. 透過Unity播放火聲音效。<br>
+>> 2. Unity利用Serial Port方式傳遞控制訊號給Arduino。<br>
+>> 3. Arduino發出Analog信號給觸覺回饋裝置。<br>
+>> 4. 觸覺回饋裝置：手掌內側為發熱貼片，依據信號大小給予使用者相應的熱觸覺回饋。手背裝有VR訊號追蹤器(VIVE Tracker)，追蹤使用者手部位置。<br>
+>> 5. 使用者必須配戴VR頭戴式顯示器、訊號追蹤器(VIVE Tracker)、耳機與觸覺回饋裝置。<br>
+>> 6. VR 訊號追蹤器(VIVE Tracker):將位置訊息傳回 Unity。<br>
+
+<br>
+
+* **Unity與Arduino串接**
 <br>
 
 * **遊戲功能設定**
