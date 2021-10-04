@@ -46,16 +46,30 @@ width=70% /></a>
 <br>
 
 ## 裝置設計 Device Design
-* 使用元件
-  * 電熱片：電熱片為 60*60mm/17歐姆之電熱片，厚度約為 0.25mm，能夠貼合於掌心且能彎曲，用於熱觸覺回饋。<br> <img src="media/電熱片.JPG" width=15% >
-  * 彎曲感測器Flex Sensor SpectraSymbol 2.2′′：用於測量手掌的彎曲幅度。 <br> <img src="media/彎曲感測器.png" width=15% >
-  * 關節炎壓縮手套<br> <img src="media/關節炎手套.png" width=15% >
-  * Arduino Nano 開發板<br> <img src="media/Arduino nano.png" width=15% >
-  * L298N 直流驅動電路：因**Arduino Nano本身之電壓不足以供應兩片電熱片所需**，故改以L298N直流驅動電路進行電壓的分配，而Arduino Nano則進行L298N上的邏輯控制。電源輸入使用24伏特/1安培的直流變壓器進行供電。<br> <img src="media/L298N.png" width=15% >
+* **使用元件**
+  * 電熱片
+    > 電熱片為 60*60mm/17歐姆之電熱片，厚度約為 0.25mm，能夠貼合於掌心且能彎曲，用於熱觸覺回饋。<br> <img src="media/電熱片.JPG" width=15% >   
+  * 彎曲感測器Flex Sensor SpectraSymbol 2.2′′
+    > 用於測量手掌的彎曲幅度。 <br> <img src="media/彎曲感測器.png" width=15% >
+  * 關節炎壓縮手套
+    > <br> <img src="media/關節炎手套.png" width=15% >
+  * Arduino Nano 開發板
+    > <br> <img src="media/Arduino nano.png" width=15% >
+  * L298N 直流驅動電路
+    > 因**Arduino Nano本身之電壓不足以供應兩片電熱片所需**，故改以L298N直流驅動電路進行電壓的分配，而Arduino Nano則進行L298N上的邏輯控制。電源輸入使用24伏特/1安培的直流變壓器進行供電。<br> <img src="media/L298N.png" width=15% >
   <br>
-* 裝置架構<br> <img src="media/Device architecture-03.png" width=60% >
-* 電路設計
-* 裝置製作
+  
+* **裝置架構**<br> <img src="media/Device architecture-03.png" width=60% >
+<br>
+
+* **電路設計**
+<br>
+<br> <img src="media/電路圖.png" width=70%>
+<br>
+
+* **裝置製作**
+<br>
+<br> <img src="media/裝置架構圖-14.png" width=70%>
 <br>
 
 ## 程式設計 Programming
