@@ -26,7 +26,7 @@
   * 裝置架構
   * 電路設計
   * 裝置製作
-* [遊戲設計](#程式設計-Programming)
+* [遊戲設計](#遊戲設計-Game-Develope)
   * 系統關係圖 System Context Diagram
   * Unity與Arduino串接
   * 遊戲功能設定
@@ -71,8 +71,20 @@ width=70% /></a>
 <br>
 <br> <img src="media/裝置架構圖-14.png" width=70%>
 <br>
-
-## 程式設計 Programming
-
+<br> <img src="media/IMG_2844.JPG" width=70%>
 <br>
+
+## 遊戲設計 Game Develope
+* **系統關係圖System Context Diagram**
+<br>
+
+* **Unity與Arduino串接**br
+<br>
+
+* **遊戲功能設定**
+<br>
+
+* **遊玩流程**
+<br>
+
 
