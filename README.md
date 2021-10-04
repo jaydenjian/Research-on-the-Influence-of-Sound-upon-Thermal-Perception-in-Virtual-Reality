@@ -125,20 +125,21 @@ width=70% /></a>
   <br>
   
  > **Unity** <br>
- > 透過[ArduinoBasic.cs]()，先讀取Arduino數值後
-
- > 再將字串轉換成浮點數
+ > 透過[ArduinoBasic.cs](script/ArduinoBasic.cs)，先讀取Arduino數值後，再將字串轉換成浮點數，以便後續進行控制。
  ```C
  void Update()
  {
-  //read Arduino message
+  //read Arduino message, String to Float
   arduinoMessage = player.GetComponent<ArduinoBasic>().readMessage;
   message = float.Parse(arduinoMessage);
  ```
-* **遊戲功能設定**
+ <br>
+ 
+* **遊戲功能設定**<br> <img src="media/功能設定流程圖.png" width=50% >
 <br>
 
-* **遊玩流程**
+
+* **遊玩流程**<br> <img src="media/遊戲流程圖.png" width=30% >
 <br>
 
 
