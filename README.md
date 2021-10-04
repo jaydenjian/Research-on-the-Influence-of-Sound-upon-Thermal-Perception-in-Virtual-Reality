@@ -31,7 +31,7 @@
   * Unity與Arduino串接
   * 遊戲功能設定
   * 遊玩流程
-
+* [論文](#論文-Thesis)
 
 <br>
 
@@ -142,4 +142,7 @@ width=70% /></a>
 * **遊玩流程**<br> <img src="media/遊戲流程圖.png" width=30% >
 <br>
 
+
+## 論文 Thesis
+[論文連結](https://hdl.handle.net/11296/4za5z3)
 
