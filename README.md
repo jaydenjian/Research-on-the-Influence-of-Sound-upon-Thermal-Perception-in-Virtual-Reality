@@ -142,6 +142,9 @@ width=70% /></a>
 * **遊玩流程**<br> <img src="media/遊戲流程圖.png" width=30% >
 <br>
 
+* **Game Design Class Diagram**<br> <img src="media/Deisgn Class Diagram-Ver3.png">
+<br>
+
 
 ## 論文 Thesis
 [論文連結](https://hdl.handle.net/11296/4za5z3)
