@@ -145,7 +145,11 @@ width=70% /></a>
 * **Game Design Class Diagram**<br> <img src="media/Deisgn Class Diagram-Ver3.png">
 <br>
 
-
+## Demo
+<br> <a href="https://youtu.be/bDB4SQxeE-E" target="_blank"><img src="https://github.com/jaydenjian/Research-on-the-Influence-of-Sound-upon-Thermal-Perception-in-Virtual-Reality/blob/main/media/GameScene1.png" 
+width=70% /></a>
+<br> 點擊圖像觀看影片
+<br>
 ## 論文 Thesis
 [論文連結](https://hdl.handle.net/11296/4za5z3)
 
